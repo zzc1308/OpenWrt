@@ -12,8 +12,8 @@ name: OpenWrt-CI-z
 on:
   schedule:
     - cron: 0 20 * * *
-  # release:
-  #   types: [published]
+  release:
+    types: [published]
   push:
     branches: 
       - master
